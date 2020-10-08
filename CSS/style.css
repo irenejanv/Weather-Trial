@@ -1,0 +1,163 @@
+h1 {
+    color: #913F31;
+    font-family: 'Rye';
+    font-size: 42px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 100;
+    font-family: 'Roboto Slab';
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Roboto Slab';
+    font-size: 18px;
+    text-align: center;
+}
+
+h4 {
+    color: rgb(97, 97, 97);
+    font-family: 'Roboto Slab';
+    text-align: center;
+}
+
+/* Container Grid*/
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    "header"
+    "header"
+    "header"
+    "body" "body";
+}
+
+
+
+.topnav {
+    background-color: #E5CD97;
+    overflow: hidden;
+    font-family: 'Roboto Slab';  
+
+}
+
+/* Style the links inside the nav bar */
+.topnav a {
+    float: right;
+    display: flex;
+    color: #5E7739;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 13px
+}
+
+/* Change the color of the links on hover */
+.topnav a:hover {
+    background-color: rgb(235, 230, 230);
+    color: #5E7739;
+    border-radius: 16pt;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #5E7739;
+    color: white;
+    border-radius: 16pt;
+}
+
+.empty1{
+    padding-left: 20px;
+}
+
+.empty2{
+    padding-bottom: 20px;
+}
+
+.empty3{
+    padding-bottom: 20px;
+}
+
+.empty4{
+    padding-bottom: 20px;
+}
+
+.weathercard {
+ 
+    float: left;
+    width: auto;
+}
+
+/* bbqcontent card*/
+.bbqcontent {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #5E7739;
+    color: white;
+    border-radius: 16pt;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2px 16px;
+
+}
+
+/* white card*/
+.whitecard {
+    background-color: rgb(235, 230, 230);
+    border-radius: 16pt;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2px 8px;
+}
+
+/* white card no shadow*/
+.whitecardnoshadow {
+    background-color: rgb(235, 230, 230);
+    border-radius: 10pt;
+    padding: 2px 5px;
+}
+
+body {
+    background-color: #E5CD97;
+}
+
+.withcaption {
+
+    background-color: #5589b6;
+    border-radius: 16pt;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2px 16px;
+    color: white;
+}
+
+.withcaption1 {
+
+    background-color: #1a2c3b;
+    border-radius: 16pt;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2px 16px;
+    color: white;
+}
+
+.withcaption2 {
+
+    background-color: #5589b6;
+    border-radius: 16pt;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2px 16px;
+    color: white;
+
+img {
+    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
